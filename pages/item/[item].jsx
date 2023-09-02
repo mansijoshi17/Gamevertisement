@@ -180,7 +180,7 @@ const Item = () => {
 														loading="lazy"
 													/>
 													<span className="text-accent text-lg font-medium leading-tight tracking-tight">
-													{userData && userData.Price} KLAY
+													{userData && userData.Price} TCBNB
 													</span>
 												</div>
 												 
