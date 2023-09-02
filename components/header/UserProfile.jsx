@@ -7,10 +7,10 @@ const UserProfile = ({ user, disconnectWallet }) => {
     const [balance, setBalance] = useState(0);
 
     const getAccountDetails = async () => {
-        const provider = new ethers.providers.JsonRpcProvider('https://api.baobab.klaytn.net:8651');
+        const provider = new ethers.providers.JsonRpcProvider('https://opbnb-testnet-rpc.bnbchain.org/');
         const balanceWei = await provider.getBalance(user); 
         const balanceEther = ethers.utils.formatEther(balanceWei);  
-        setBalance(balanceEther);
+        setBalance(parseFloat(balanceEther).toFixed(3));
     }
 
     useEffect(() => {
@@ -48,7 +48,7 @@ const UserProfile = ({ user, disconnectWallet }) => {
                     </span>
                     <div className="flex items-center">
                         <img
-                            src="/images/chains/klay.png"
+                            src="/images/chains/tbnb.png"
                             alt="avatar"
                             className="rounded-2lg mr-1 h-4 w-4"
                             loading="lazy"

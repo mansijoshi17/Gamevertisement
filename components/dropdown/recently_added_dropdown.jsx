@@ -543,11 +543,11 @@ const Recently_added_dropdown = ({ data, dropdownFor }) => {
                   onClick={handleCurrencyDropdown}
                 >
                   <span className="font-display flex items-center">
-                    {/* <img
-                      src="/images/chains/klay.png"
+                    <img
+                      src="/images/chains/tbnb.png"
                       alt="TCBNB"
                       className="mr-2 h-5 w-5 rounded-full"
-                    /> */}
+                    />
                     TCBNB
                   </span>
                   <svg

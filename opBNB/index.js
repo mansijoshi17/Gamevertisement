@@ -1,7 +1,7 @@
  
-export const nftaddress = "0x8937157d4F9Fe2b2543B1E77420cc071b04Ff8e9";
-export const nftmarketaddress = "0x30846a77Fe5F1504c6447D10a5c6E537a07F61BC";
-export const rentFactoryAddress = "0xf49b797BC116C82635ad32BF0CcFCE2AF6E1BF26";
+export const nftaddress = "0x6b2e241Cb89C58bfa662FBf83aB56b788B6D22FD";
+export const nftmarketaddress = "0x236b936792C05e48Fc98573F4C4019144704306a";
+export const rentFactoryAddress = "0x06a8fa03F246adCC8D1Ce4f3A8f8323125A51b1a";
 
 export const nftABI = [
   {
@@ -63,6 +63,38 @@ export const nftABI = [
       }
     ],
     "name": "ApprovalForAll",
+    "type": "event"
+  },
+  {
+    "anonymous": false,
+    "inputs": [
+      {
+        "indexed": false,
+        "internalType": "uint256",
+        "name": "_fromTokenId",
+        "type": "uint256"
+      },
+      {
+        "indexed": false,
+        "internalType": "uint256",
+        "name": "_toTokenId",
+        "type": "uint256"
+      }
+    ],
+    "name": "BatchMetadataUpdate",
+    "type": "event"
+  },
+  {
+    "anonymous": false,
+    "inputs": [
+      {
+        "indexed": false,
+        "internalType": "uint256",
+        "name": "_tokenId",
+        "type": "uint256"
+      }
+    ],
+    "name": "MetadataUpdate",
     "type": "event"
   },
   {

@@ -50,7 +50,7 @@ const BidsModal = () => {
                 <div className="border-jacarta-100 bg-jacarta-50 flex flex-1 items-center self-stretch border-r px-2">
                   <span>
                   <img
-																	src="/images/chains/klay.png"
+																	src="/images/chains/tbnb.png"
 																	alt="avatar"
 																	className="rounded-2lg mr-1 h-4 w-4"
 																	loading="lazy"

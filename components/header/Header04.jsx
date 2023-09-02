@@ -85,7 +85,7 @@ export default function Header04() {
         <div className="flex items-center px-6 py-6 xl:px-24 ">
           <Link className="shrink-0" href="/"> 
             <h4 className=" font-display text-2xl text-jacarta-700 dark:text-white lg:text-3xl xl:text-4xl">
-              <span className="dark:text-white text-jacarta-700">KANs</span>
+              <span className="dark:text-white text-jacarta-700">Gamevertisement</span>
             </h4>
           </Link>
 
@@ -154,7 +154,7 @@ export default function Header04() {
         <div className="t-0 dark:bg-jacarta-800 fixed left-0 z-10 flex w-full items-center justify-between bg-white p-6 lg:hidden">
           
           <h4 className=" font-display text-2xl text-jacarta-700 dark:text-white lg:text-3xl xl:text-4xl">
-            <span className="animate-gradient">KANs</span>
+            <span className="animate-gradient">Gamevertisement</span>
           </h4>
 
           <button

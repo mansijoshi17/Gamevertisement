@@ -22,6 +22,7 @@ import {
     measurementId: process.env.NEXT_PUBLIC_APP_measurementId
 };
  
+
  
 const app = initializeApp(firebaseConfig);
 const db = getFirestore(app);

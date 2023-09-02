@@ -96,12 +96,12 @@ const BidsCarousel = () => {
                       </a>
                     </Link>
                     <span className="dark:border-jacarta-600 border-jacarta-100 flex items-center whitespace-nowrap rounded-md border py-1 px-2">
-                    {/* <img
-																	src="/images/chains/klay.png"
+                    <img
+																	src="/images/chains/tbnb.png"
 																	alt="avatar"
 																	className="rounded-2lg mr-1 h-4 w-4"
 																	loading="lazy"
-																/> */}
+																/>
 
                       <span className="text-accent text-sm font-medium tracking-tight">
                         {Price} TCBNB

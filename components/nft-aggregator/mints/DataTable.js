@@ -211,7 +211,7 @@ const DataTable = () => {
                 <Image
                   width={14}
                   height={14}
-                  src="/images/chains/klay.png"
+                  src="/images/chains/tbnb.png"
                   alt="items"
                   className="ml-0.5 h-3.5 w-3.5"
                 />
@@ -223,7 +223,7 @@ const DataTable = () => {
                 <Image
                   width={14}
                   height={14}
-                  src="/images/chains/klay.png"
+                  src="/images/chains/tbnb.png"
                   alt="items"
                   className="ml-0.5 h-3.5 w-3.5"
                 />

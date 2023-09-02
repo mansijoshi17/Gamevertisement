@@ -49,7 +49,7 @@ const Collection_dropdown2 = ({ data, collection }) => {
 					onClick={() => handleDropdown()}
 				>
 					<span className="flex items-center">
-						{/* <img src="/images/chains/klay.png" alt="FLOW" className="mr-2 h-5 w-5 rounded-full" /> */}
+						<img src="/images/chains/tbnb.png" alt="FLOW" className="mr-2 h-5 w-5 rounded-full" />
 						TCBNB
 					</span>
 					<svg

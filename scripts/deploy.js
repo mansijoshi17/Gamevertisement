@@ -1,9 +1,7 @@
 const hre = require("hardhat");
 
 async function main() {
-  const adSpace = await hre.ethers.deployContract("AdSpace",);
-  await adSpace.waitForDeployment();
-  console.log('deploy contract:=', adSpace.target);
+
   
   const NFTMarket = await hre.ethers.deployContract("NFTMarket");
   await NFTMarket.waitForDeployment();

@@ -122,7 +122,7 @@ const Item = () => {
 							<div className="mb-8 flex items-center space-x-4 whitespace-nowrap">
 								<div className="flex items-center">
 									<img
-										src="/images/chains/klay.png"
+										src="/images/chains/tbnb.png"
 										alt="avatar"
 										className="rounded-2lg mr-1 h-4 w-4"
 										loading="lazy"
@@ -174,7 +174,7 @@ const Item = () => {
 											<div>
 												<div className="flex items-center whitespace-nowrap">
 													<img
-														src="/images/chains/klay.png"
+														src="/images/chains/tbnb.png"
 														alt="avatar"
 														className="rounded-2lg mr-1 h-4 w-4"
 														loading="lazy"

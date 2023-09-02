@@ -453,7 +453,7 @@ const Create = () => {
                   <span className="dark:border-jacarta-600 border-jacarta-100 flex items-center whitespace-nowrap rounded-md border py-1 px-2">
                     <Tippy content={<span>TCBNB</span>}>
                       <img
-                        src="/images/chains/klay.png"
+                        src="/images/chains/tbnb.png"
                         alt=""
                         className="w-3 h-3 mr-1"
                       />
@@ -507,7 +507,7 @@ const Create = () => {
               onClick={handleClose}
               aria-label="close"
             >
-              KlayAI 👋
+              Gamevertisement AI 👋
             </IconButton>
             <Typography
               sx={{ ml: 2, flex: 1 }}

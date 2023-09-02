@@ -108,7 +108,7 @@ const User = () => {
               </h2>
               <div className="dark:bg-jacarta-700 dark:border-jacarta-600 border-jacarta-100 mb-8 inline-flex items-center justify-center rounded-full border bg-white py-1.5 px-4">
                 <img
-                  src="/images/chains/klay.png"
+                  src="/images/chains/tbnb.png"
                   alt="avatar"
                   className="rounded-2lg mr-1 h-4 w-4"
                   loading="lazy"
