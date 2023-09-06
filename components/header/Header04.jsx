@@ -1,16 +1,17 @@
 import Image from "next/image";
-import Link from "next/link"; 
+import Link from "next/link";
 import { v4 as uuidv4 } from "uuid";
 import { useRouter } from "next/router";
 import { isParentPageActive } from "../../utils/daynamicNavigation";
-import { useContext, useEffect, useState } from "react"; 
+import { useContext, useEffect, useState } from "react";
 import UserProfile from "./UserProfile";
 import { AuthContext } from "../../context/AuthConext";
 import { KlaytnContext } from "../../context/KlaytnContext";
 
 export default function Header04() {
   const authContext = useContext(AuthContext);
-  const { user, login, userExist, disconnectWallet ,shortAddress} = authContext;
+  const { user, login, userExist, disconnectWallet, shortAddress } =
+    authContext;
   const klaytnContext = useContext(KlaytnContext);
   const { setupUser } = klaytnContext;
   const [toggle, setToggle] = useState(false);
@@ -26,9 +27,7 @@ export default function Header04() {
       }
     });
   }, []);
- 
 
- 
   useEffect(() => {
     window.addEventListener("resize", () => {
       if (window.innerWidth >= 1024) {
@@ -73,6 +72,10 @@ export default function Header04() {
         },
       ],
     },
+    {
+      name: "Metaverse",
+      path: "https://flow-meta.onrender.com/",
+    },
   ];
 
   return (
@@ -83,9 +86,14 @@ export default function Header04() {
         }`}
       >
         <div className="flex items-center px-6 py-6 xl:px-24 ">
-          <Link className="shrink-0" href="/"> 
+          <Link className="shrink-0" href="/">
             <h4 className=" font-display text-2xl text-jacarta-700 dark:text-white lg:text-3xl xl:text-4xl">
-              <span style={{fontSize:"20px"}} className="dark:text-white text-jacarta-700">Gamevertisement</span>
+              <span
+                style={{ fontSize: "20px" }}
+                className="dark:text-white text-jacarta-700"
+              >
+                Gamevertisement
+              </span>
             </h4>
           </Link>
 
@@ -114,7 +122,10 @@ export default function Header04() {
           </div>
           <div className="hidden  justify-end lg:flex">
             {user && user ? (
-              <UserProfile user={user}  disconnectWallet={shortAddress(disconnectWallet)}/>
+              <UserProfile
+                user={user}
+                disconnectWallet={shortAddress(disconnectWallet)}
+              />
             ) : (
               <button
                 onClick={async () => {
@@ -152,7 +163,6 @@ export default function Header04() {
         }`}
       >
         <div className="t-0 dark:bg-jacarta-800 fixed left-0 z-10 flex w-full items-center justify-between bg-white p-6 lg:hidden">
-          
           <h4 className=" font-display text-2xl text-jacarta-700 dark:text-white lg:text-3xl xl:text-4xl">
             <span className="animate-gradient">Gamevertisement</span>
           </h4>
